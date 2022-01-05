@@ -1,0 +1,114 @@
+body{
+	margin:0px;
+
+}
+header{
+	margin:0px;
+	height: 70px;
+	background:linear-gradient(45deg,red,yellow,white,blue);
+	display:flex;
+	justify-content: space-between; 	
+	align-items: center;
+
+}
+div{
+	margin:0px;
+}
+ a{
+	text-decoration: none;
+	margin-right:20px;
+}
+header>h1>a>span{
+	color: white;
+	text-decoration:none;
+	margin-left: 20px;
+}
+.fas{
+    padding:8px;
+}
+.far{
+    padding:8px;
+
+}
+div a:hover{
+	/*display: inline;*/
+	background-color: pink;
+	padding:5px;
+	border-radius: 5px;
+
+
+}
+@media(min-width: 0px) and (max-width: 1000px){
+	header{
+		height:120px;
+		flex-direction: column;
+
+}
+    div a {
+    	position:relative;
+    	top:-20px;
+
+    }
+	
+}
+
+
+
+#sub{
+	background-color: hsla(366deg,89%,34%,0.3);
+	height: 262px;
+	width:549px;
+	border-radius: 10px;
+    position: absolute;
+    top:340px;
+    left:398px; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:pink;
+    font-size: 17px;
+
+}
+#sub button{
+	height:30px;
+	border-radius: 5px;
+	background-color: cyan;
+}
+img{
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+footer{
+	background:linear-gradient(45deg,blue,red,white,green);
+	position: relative;
+	height:80px;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	margin-top: -84px;
+	
+
+}
+section{
+	background:url("../Img/dd2.jpg") cover;
+	
+}
+.fab{
+
+   
+}
+footer p{
+	color:white;
+	font-size: 16px;
+    
+}
+footer span{
+	color:white;
+	background-color:red;
+	
+}
+
+
+
+
